@@ -4,56 +4,116 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fit Diet AI â€” Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #FFF8F6 0%, #F8F4FF 100%);
   min-height: 100vh;
   color: #1A1C1C;
-  line-height: 1.8;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
 }
-.container { max-width: 800px; margin: 0 auto; padding: 48px 24px; }
-.header { text-align: center; margin-bottom: 48px; }
-.logo { width: 64px; height: 64px; background: white; border-radius: 16px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
-.logo svg { width: 36px; height: 36px; }
-h1 { font-size: 32px; font-weight: 800; letter-spacing: -0.5px; }
-.subtitle { font-size: 14px; color: #4C4546; margin-top: 4px; }
+.container { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  padding: 0 4px;
+}
+.logo {
+  width: 44px;
+  height: 44px;
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  flex-shrink: 0;
+}
+.logo svg { width: 26px; height: 26px; display: block; }
+.header-text { flex: 1; }
+.header-text h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: #1A1C1C;
+}
+.header-text .sub {
+  font-size: 13px;
+  color: #4C4546;
+  font-weight: 400;
+  margin-top: 2px;
+}
 .card {
   background: white;
   border-radius: 16px;
-  padding: 32px;
-  margin-bottom: 24px;
+  padding: 24px;
+  margin-bottom: 16px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   border: 1px solid #E8E8E8;
 }
-h2 { font-size: 20px; font-weight: 700; margin-bottom: 16px; color: #111; }
-p { margin-bottom: 12px; font-size: 15px; }
-ul { padding-left: 20px; margin-bottom: 12px; }
-li { margin-bottom: 8px; font-size: 15px; }
-.footer { text-align: center; padding: 32px 0; color: #4C4546; font-size: 13px; }
+h2 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #1A1C1C;
+}
+p { margin-bottom: 10px; font-size: 14px; color: #1A1C1C; }
+p.meta { font-size: 13px; color: #4C4546; margin-bottom: 0; }
+ul { padding-left: 18px; margin-bottom: 10px; }
+li { margin-bottom: 6px; font-size: 14px; color: #1A1C1C; }
 strong { font-weight: 600; }
+em { font-style: normal; color: #4C4546; }
+a { color: #000; text-decoration: underline; font-weight: 500; }
+a:hover { opacity: 0.7; }
+.divider { height: 1px; background: #E8E8E8; margin: 20px 0; }
+.tag {
+  display: inline-block;
+  background: #FF6B35;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  letter-spacing: 0.3px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.footer { text-align: center; padding: 24px 0 0; color: #4C4546; font-size: 12px; }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="header">
     <div class="logo">
-      <svg viewBox="0 0 100 100" fill="none"><rect width="100" height="100" rx="22" fill="white"/><path d="M30 25H70V35H42V45H65V55H42V75H30V25Z" fill="black"/><path d="M60 45C65 45 70 50 70 55V75H60V55C60 52 58 50 55 50H50V75H40V45H60Z" fill="black" fill-opacity="0.2"/><rect x="45" y="60" width="25" height="15" rx="4" fill="black"/><path d="M45 67.5H70" stroke="white" stroke-width="2"/></svg>
+      <svg viewBox="0 0 100 100" fill="none">
+        <rect width="100" height="100" rx="22" fill="white"/>
+        <path d="M30 25H70V35H42V45H65V55H42V75H30V25Z" fill="black"/>
+        <path d="M60 45C65 45 70 50 70 55V75H60V55C60 52 58 50 55 50H50V75H40V45H60Z" fill="black" fill-opacity="0.15"/>
+        <rect x="45" y="60" width="25" height="15" rx="4" fill="black"/>
+        <path d="M45 67.5H70" stroke="white" stroke-width="2"/>
+      </svg>
     </div>
-    <h1>Privacy Policy</h1>
-    <p class="subtitle">Fit Diet AI &mdash; Your AI Nutrition Coach</p>
-    <p class="subtitle">Last updated: June 2026</p>
+    <div class="header-text">
+      <h1>Privacy Policy</h1>
+      <p class="sub">Fit Diet AI <em>&middot;</em> Last updated June 2026</p>
+    </div>
   </div>
 
   <div class="card">
     <h2>Information We Collect</h2>
     <p>When you use Fit Diet AI, we collect the following:</p>
     <ul>
-      <li><strong>Account Information:</strong> Name and email address when you register.</li>
-      <li><strong>Fitness Data:</strong> Weight, height, age, diet preferences, food logs, workout logs, water intake, and step count.</li>
-      <li><strong>Device Information:</strong> Device type and operating system version for troubleshooting.</li>
-      <li><strong>Payment Data:</strong> Google Play transaction IDs only. We do not store credit card details.</li>
+      <li><strong>Account Information</strong> &mdash; Name and email address when you register.</li>
+      <li><strong>Fitness Data</strong> &mdash; Weight, height, age, diet preferences, food logs, workout logs, water intake, and step count.</li>
+      <li><strong>Device Information</strong> &mdash; Device type and operating system version for troubleshooting.</li>
+      <li><strong>Payment Data</strong> &mdash; Google Play transaction IDs only. We do not store credit card details.</li>
     </ul>
   </div>
 
@@ -77,8 +137,8 @@ strong { font-weight: 600; }
     <h2>Data Deletion</h2>
     <p>You can delete all your data at any time using one of these methods:</p>
     <ul>
-      <li><strong>In the App:</strong> Go to <strong>Settings &rarr; Delete Account</strong></li>
-      <li><strong>By Email:</strong> Send a deletion request to <strong>indianfitdietai@gmail.com</strong> using your registered email address</li>
+      <li><strong>In the App</strong> &mdash; Go to <strong>Settings &rarr; Delete Account</strong></li>
+      <li><strong>By Email</strong> &mdash; Send a deletion request to <strong>indianfitdietai@gmail.com</strong> using your registered email address</li>
     </ul>
     <p>All personal data, food logs, workout logs, photos, and profile information will be permanently removed from our servers within <strong>30 days</strong> of your deletion request.</p>
   </div>
